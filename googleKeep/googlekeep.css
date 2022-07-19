@@ -1,0 +1,140 @@
+.navBar{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+ .side-bar ul{
+    list-style: none;
+    position: relative;
+    left: -40px;
+    
+}   
+.side-bar ul li {
+     padding: 10px 100px 10px 10px ;
+     background-color: bisque;
+     border-radius:0  24px 24px 0;
+     width: 250px;
+     display: flex;
+     /* width: 100%; */
+
+}
+.side-bar ul li i{
+    margin-right: 10px;
+}
+.side-bar ul li a{
+    color: black;
+    margin-left: 50px;
+}
+.takeText textarea{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin-top: 30px;
+    border: 0;
+    border-style: none;
+     /* border: 1px solid white;  */
+}
+
+.modalBox{
+     /* display: none;  */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* top: 0; */
+    /* left: 0; */
+
+} 
+.modalBox,.modalBox .modalPopup{
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+.modalBox.show,.modalBox.show .modalPopup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalBox .modalPopup .modalContent{
+    /* position: absolute; */
+    /* top: 80px; */
+    /* left: 500px; */
+    margin-top: -48px;
+    width: 600px;
+    height: 130px;
+    /* background-color: white; */
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    
+}   
+
+.modalBox .modalPopup input,textarea{
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    /* box-shadow: 0 3px 5px rgba(0,0,0,0.2); */
+    overflow: hidden;
+    /* margin-top: 30px; */
+    border: 0;
+
+}
+.modalBox .modalPopup button{
+    float: right;
+    border: 0;
+    background-color: white;
+}  
+.note{
+    width: 200px;
+    /* height: 100%; */
+    border: 0;
+    box-shadow:0 3px 5px rgba(0,0,0,0.2) ;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+ .note .content{
+    overflow-wrap: break-word;
+ }
+ .settings i{
+    cursor: pointer;
+    float: right;
+ }
+
+.settings .menu li{
+    cursor: pointer;
+    height: 25px;
+    background-color: white;
+    list-style: none;
+    font-size: 14px;
+    /* position: relative; */
+}
+
+.settings .menu{
+    /* position: absolute; */
+    /* bottom: 0; */
+    transform: scale(0);
+    transition: 0.3s ease;
+
+}
+.settings:hover .menu{
+    transform: scale(1);
+    transform-origin: top right;
+}
+.settings .menu i{
+    float: none;
+    margin-right: 10px;
+}
+.menu li:hover{
+    background-color: grey;
+}
+
+

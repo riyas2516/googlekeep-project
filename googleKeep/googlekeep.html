@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="googlekeep.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navBar">
+        <i class="fa-solid fa-bars"></i>
+        <img src="/js-projects1-images/googlenotes.png" alt="">
+        <p>Keep</p>
+        <form class="form-inline my-2 my-lg-0">
+
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+          </form>
+          <i class="fa-solid fa-arrow-rotate-right"></i>
+          <i class="fa-solid fa-list-ol"></i>
+          <i class="fa-solid fa-gear"></i>
+          <i class="fa-solid fa-table-cells"></i>
+          <img src="/js-projects1-images/0_Ggt-XwliwAO6QURi.jpg" alt="">
+    </div>
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <div class="side-bar">
+                    <ul>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="default.asp">Home</a></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="news.asp">News</a></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="contact.asp">Contact</a></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="contact.asp">Contact</a></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="about.asp">About</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="container-fluid">
+                    <div class="row justify-content-md-center">
+                        <div class="col-8">
+                            <div class="takeText">
+                                <form action="">
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </form>
+
+                            </div>
+                            <div class="modalBox">
+                                 <div class="modalPopup">
+                                     <div class="modalContent">
+                                        <form action="">
+                                            <input type="text" placeholder="Title"><br>
+                                            <textarea name="" id="" cols="30" rows="10" placeholder="Take a Note"></textarea><br>
+                                            <button>Add Note</button>
+                                        </form>
+
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+
+                        </div>
+                        <div class="col">kdjk</div>
+                        <div class="col">kldjweod</div>
+                        <div class="col">diowed</div>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    </div>-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <div class="side-bar">
+                    <ul>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="default.asp">Home</a></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="news.asp">News</a></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="contact.asp">Contact</a></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="contact.asp">Contact</a></li>
+                        <li><i class="fa-solid fa-lightbulb"></i><a href="about.asp">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container-fluid">
+                    <div class="row justify-content-md-center">
+                        <div class="col-8">
+                            <div class="takeText">
+                                <form action="">
+                                    <textarea name="" id="takeText" cols="30" rows="10" placeholder="take a note"></textarea>
+                                </form>
+
+                            </div>
+                            <div class="modalBox">
+                                 <div class="modalPopup">
+                                     <div class="modalContent">
+                                        <form action="">
+                                            <input type="text" placeholder="Title" class="getTitle"><br>
+                                            <textarea name="" id="" cols="30" rows="10" placeholder="Take a Note" class="getDescription"></textarea><br>
+                                            <button class="addBtn">Add Note</button>
+                                            <button class="closeBtn">close</button>
+                                        </form>
+
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                    <div class="row">
+                        <div class=" col" >
+                            <div class="note">
+                                <div class="content"><h4>heading</h4><p>descriptioyyyyyyyyyyyyyyyyyyyyyyyyyyy</p>
+                                </div>
+                                <div class="settings"><i class="fa-solid fa-ellipsis-vertical"></i>
+                                    <ul class="menu">
+                                        <li><i class="fa-solid fa-pencil"></i>edit</li>
+                                        <li><i class="fa-solid fa-trash"></i>delete</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class=" col">
+                            <div class="note">
+                                <div class="content"><h4>heading</h4><p>desc444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444ription</p>
+                                </div>
+                                <div class="settings"><i class="fa-solid fa-ellipsis-vertical"></i>
+                                <ul class="menu">
+                                    <li><i class="fa-solid fa-pencil"></i>edit</li>
+                                    <li><i class="fa-solid fa-trash"></i>delete</li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class=" col">
+                            <div class="note">
+                                <div class="content"><h4>heading</h4><p>description</p>
+                                </div>
+                                <div class="settings"><i class="fa-solid fa-ellipsis-vertical"></i>
+                                    <ul class="menu">
+                                        <li><i class="fa-solid fa-pencil"></i>edit</li>
+                                        <li><i class="fa-solid fa-trash"></i>delete</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>   
+                        <div class=" col"  >
+                            <div class="note">
+                                <div class="content"><h4>heading</h4><p>description</p>
+                                </div>
+                                <div class="settings"><i class="fa-solid fa-ellipsis-vertical"></i>
+                                    <ul class="menu">
+                                        <li><i class="fa-solid fa-pencil"></i>edit</li>
+                                        <li><i class="fa-solid fa-trash"></i>delete</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>   
+                        
+                        
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="googlekeep.js"></script>
+</body>
+</html>
